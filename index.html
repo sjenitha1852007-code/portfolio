@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="container">
+            <a href="#hero" class="logo">jenitha</a>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Jenitha</h1>
+                <p class="subtitle">Python developer</p>
+                <p>I m a beginner python devoloper</p>
+                <a href="#portfolio" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <img src="./img/jenitha.jpg" alt="Vishal" class="profile-photo">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>"I'm Jenitha, a passionate Python developer exploring the world of back-end development and
+                            data solutions. I enjoy diving into code, building robust systems, and creating powerful
+                            applications that are both reliable and efficient. As I grow in this journey, my goal is to
+                            build skills that help me create experiences that people enjoy using. I'm excited to
+                            collaborate, learn from others, and keep improving every day."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="progress-circle" data-percentage="50">
+                            <svg class="progress-svg">
+                                <circle class="progress-bg" cx="70" cy="70" r="60"></circle>
+                                <circle class="progress-bar" cx="70" cy="70" r="60"></circle>
+                            </svg>
+                            <span class="percentage">50%</span>
+                        </div>
+                        <h3 class="skill-title">UI/UX</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="progress-circle" data-percentage="60">
+                            <svg class="progress-svg">
+                                <circle class="progress-bg" cx="70" cy="70" r="60"></circle>
+                                <circle class="progress-bar" cx="70" cy="70" r="60"></circle>
+                            </svg>
+                            <span class="percentage">60%</span>
+                        </div>
+                        <h3 class="skill-title">Figma</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="progress-circle" data-percentage="10">
+                            <svg class="progress-svg">
+                                <circle class="progress-bg" cx="70" cy="70" r="60"></circle>
+                                <circle class="progress-bar" cx="70" cy="70" r="60"></circle>
+                            </svg>
+                            <span class="percentage">10%</span>
+                        </div>
+                        <h3 class="skill-title">Java</h3>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2>My Work</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-card">
+                        <img src="https://via.placeholder.com/600x400.png?text=Project+1" alt="Project 1">
+                        <div class="card-content">
+                            <h3>Website Redesign</h3>
+                            <p>A modern and responsive redesign of a corporate website, focusing on improved navigation and user experience.</p>
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <img src="https://via.placeholder.com/600x400.png?text=Project+2" alt="Project 2">
+                        <div class="card-content">
+                            <h3>Mobile App UI</h3>
+                            <p>Designed a clean and intuitive user interface for a fitness tracking mobile application using Figma.</p>
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <img src="https://via.placeholder.com/600x400.png?text=Project+3" alt="Project 3">
+                        <div class="card-content">
+                            <h3>E-commerce Site</h3>
+                            <p>Developed the front-end for a prototype e-commerce platform, focusing on a smooth checkout flow.</p>
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Feel free to reach out to discuss potential projects or just to say hello.</p>
+                <form id="contact-form">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 jenitha. All Rights Reserved.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com" aria-label="LinkedIn" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com" aria-label="Instagram" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="mailto:vishalll2907@gmail.com" aria-label="Email">
+                    <svg xmlns="sjenitha1852007@gmail.com" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
